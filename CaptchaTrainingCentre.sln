@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CaptchaWebApi", "CaptchaWebApi", "{C36AAA20-9EF3-4344-B82D-BA5D8A5730E0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CaptchaClientApp", "CaptchaClientApp", "{E99D10FB-2EEF-41F4-BE7A-9F4EBD557C77}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptchaTraining", "CaptchaTraining\CaptchaTraining.csproj", "{3796BC3F-1476-4012-9826-B54B16892BFF}"
 EndProject
 Global

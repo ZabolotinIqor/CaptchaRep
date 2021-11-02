@@ -1,12 +1,16 @@
-﻿using CaptchaTraining.Utils.Validation;
+﻿using System.ComponentModel.DataAnnotations;
+using CaptchaTraining.Utils.Validation;
 using Microsoft.AspNetCore.Http;
 
 namespace CaptchaTraining.Model
 {
     public class CaptchaPostDto
     {
+        [MinLength(4)]
+        [MaxLength(8)]
         [OnlyLatinAndNoCaptcha]
         public string Name { get; set; }
+        [OneOfThisSelected]
         public bool hasCyrillic { get; set; }
         public bool hasLatin { get; set; }
         public bool hasNumeric { get; set; }
